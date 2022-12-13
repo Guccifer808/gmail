@@ -1,9 +1,13 @@
-import logo from "./assets/logo.png";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="">
-      <img src={logo}></img>
+      {/* Navbar */}
+      <Navbar />
+      {/* L Sidebar */}
+      {/* Main */}
+      {/* R Sidebar */}
     </div>
   );
 }
