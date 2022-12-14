@@ -2,20 +2,24 @@ import React from "react";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { TbDotsVertical, TbArrowsLeftRight } from "react-icons/tb";
 // import { GoSettings } from "react-icons/go";
-import { BsPlusSquare, BsInboxFill } from "react-icons/bs";
+import {
+  BsPlusSquare,
+  BsInbox,
+  BsPeople,
+  BsBookmarkCheck,
+  BsInfoSquare,
+  BsChatSquareQuote,
+} from "react-icons/bs";
 import { MdOutlineSettings, MdOutlineKeyboardHide } from "react-icons/md";
 import Category from "./Category";
 
 const Inbox = () => {
   const categories = [
-    {
-      title: "Primary",
-      icon: <BsInboxFill className="hover:text-yellow-500" />,
-    },
-    { title: "Social", icon: <BsInboxFill /> },
-    { title: "Promotions", icon: <BsInboxFill /> },
-    { title: "Updates", icon: <BsInboxFill /> },
-    { title: "Forums", icon: <BsInboxFill /> },
+    { title: "Primary", icon: <BsInbox /> },
+    { title: "Social", icon: <BsPeople /> },
+    { title: "Promotions", icon: <BsBookmarkCheck /> },
+    { title: "Updates", icon: <BsInfoSquare /> },
+    { title: "Forums", icon: <BsChatSquareQuote /> },
   ];
   return (
     <div className="pt-2.5">

@@ -21,8 +21,8 @@ const Navbar = () => {
         </p>
       </div>
       {/* Search input */}
-      <div className="w-full">
-        <div className="flex relative items-center mx-auto max-w-[25rem]">
+      <div className="w-full ">
+        <div className="hidden md:flex relative items-center mx-auto max-w-[25rem]">
           <input
             id="Search"
             type="search"
