@@ -5,60 +5,177 @@ const Emails = () => {
   const emails = [
     {
       sender: "Google",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur assets. Lorem ipsum dolor sit amet consectetur",
       time: "12:00 AM",
     },
     {
       sender: "Facebook",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur",
       time: "11:00 AM",
     },
     {
       sender: "Instagram",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur react. Lorem ipsum dolor sit amet consectetur",
       time: "10:00 AM",
     },
     {
       sender: "Github",
       title:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. New repositories",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. New repositories. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
       time: "Dec 28",
     },
     {
       sender: "Sales",
       title:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Special deal!",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Special deal!. Lorem ipsum dolor sit amet consectetur",
       time: "Dec 28",
     },
     {
       sender: "Spotify",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur",
       time: "Dec 26",
     },
     {
       sender: "BankBOA",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
       time: "Dec 25",
     },
     {
       sender: "TailwindCSS",
       title:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. 10% Off!",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. 10% Off! Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
       time: "Dec 24",
     },
     {
-      sender: "JavascriptSchool",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      sender: "Javascript",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
       time: "Dec 23",
     },
     {
-      sender: "support@react.js",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      sender: "helpt@react.js",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
       time: "Dec 23",
     },
     {
       sender: "Happiness",
-      title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 21",
+    },
+    {
+      sender: "Google",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur assets. Lorem ipsum dolor sit amet consectetur",
+      time: "12:00 AM",
+    },
+    {
+      sender: "Facebook",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur",
+      time: "11:00 AM",
+    },
+    {
+      sender: "Instagram",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur react. Lorem ipsum dolor sit amet consectetur",
+      time: "10:00 AM",
+    },
+    {
+      sender: "Github",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. New repositories. Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 28",
+    },
+    {
+      sender: "Sales",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Special deal!. Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 28",
+    },
+    {
+      sender: "Spotify",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 26",
+    },
+    {
+      sender: "BankBOA",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 25",
+    },
+    {
+      sender: "TailwindCSS",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. 10% Off! Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 24",
+    },
+    {
+      sender: "Javascript",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 23",
+    },
+    {
+      sender: "helpt@react.js",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 23",
+    },
+    {
+      sender: "Happiness",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 21",
+    },
+
+    {
+      sender: "Sales",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Special deal!. Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 28",
+    },
+    {
+      sender: "Spotify",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 26",
+    },
+    {
+      sender: "BankBOA",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 25",
+    },
+    {
+      sender: "TailwindCSS",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. 10% Off! Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 24",
+    },
+    {
+      sender: "Javascript",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 23",
+    },
+    {
+      sender: "helpt@react.js",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
+      time: "Dec 23",
+    },
+    {
+      sender: "Happiness",
+      title:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur",
       time: "Dec 21",
     },
   ];
