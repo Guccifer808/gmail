@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { GiClockwiseRotation } from "react-icons/gi";
 import { TbDotsVertical, TbArrowsLeftRight } from "react-icons/tb";
 // import { GoSettings } from "react-icons/go";
 import {
@@ -28,7 +28,7 @@ const Inbox = () => {
         {/* Left */}
         <div className="flex items-center gap-6 text-gray-600">
           <BsPlusSquare className="h-[1.2rem] w-[1.2rem] hover:text-gray-900 cursor-pointer" />
-          <AiOutlineLoading3Quarters className="h-[1.2rem] w-[1.2rem] hover:text-gray-900 cursor-pointer" />
+          <GiClockwiseRotation className="h-[1.2rem] w-[1.2rem] hover:text-gray-900 cursor-pointer" />
           <TbDotsVertical className="h-[1.2rem] w-[1.2rem] hover:text-gray-900 cursor-pointer" />
         </div>
         {/* Right */}

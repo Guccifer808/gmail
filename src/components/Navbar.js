@@ -5,7 +5,7 @@ import { TbGridDots } from "react-icons/tb";
 import profilepic from "../assets/profilepic1.jpg";
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between border-b py-3 px-4">
+    <div className="sticky top-0 bg-white flex items-center justify-between border-b py-3 px-4">
       {/* L Section */}
       <div className="flex items-center gap-3 ">
         <FiMenu className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
