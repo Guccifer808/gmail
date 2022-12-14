@@ -1,3 +1,4 @@
+import Inbox from "./components/Inbox";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
       {/* Navbar */}
       <Navbar />
       {/* L Sidebar */}
-      {/* Main */}
+      {/* Main Inbox*/}
+      <Inbox />
       {/* R Sidebar */}
     </div>
   );

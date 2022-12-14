@@ -5,10 +5,10 @@ import { TbGridDots } from "react-icons/tb";
 import profilepic from "../assets/profilepic1.jpg";
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between border-b py-3 px-6">
+    <div className="flex items-center justify-between border-b py-3 px-4">
       {/* L Section */}
       <div className="flex items-center gap-3 ">
-        <FiMenu className="w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer" />
+        <FiMenu className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
         <div className="w-14 h-[2.5rem] flex">
           <img
             src={logo}
@@ -16,7 +16,7 @@ const Navbar = () => {
             className="h-10 object-cover cursor-pointer"
           ></img>
         </div>
-        <p className="-ml-3 text-gray-500 text-[22px] font-semibold cursor-pointer">
+        <p className="-ml-3 text-gray-600 text-[22px] font-semibold cursor-pointer">
           Gmail
         </p>
       </div>
@@ -24,6 +24,7 @@ const Navbar = () => {
       <div className="w-full">
         <div className="flex relative items-center mx-auto max-w-[25rem]">
           <input
+            id="Search"
             type="search"
             className="py-1.5 px-3 rounded-full bg-neutral-100 w-full pl-12 hover:bg-neutral-200/70 outline-0"
             placeholder="Search mail"
@@ -43,11 +44,11 @@ const Navbar = () => {
               className="object-cover rounded-full"
             />
           </div>
-          <p className="whitespace-nowrap font-semibold text-gray-500 text-sm pr-1">
+          <p className="whitespace-nowrap font-semibold text-gray-600 text-sm pr-1">
             Serhii D.
           </p>
         </div>
-        <TbGridDots className="w-6 h-6 text-gray-500 hover:text-gray-900 cursor-pointer" />
+        <TbGridDots className="w-6 h-6 text-gray-600 hover:text-gray-900 cursor-pointer" />
       </div>
     </div>
   );
