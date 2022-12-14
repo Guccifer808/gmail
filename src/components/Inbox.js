@@ -8,7 +8,10 @@ import Category from "./Category";
 
 const Inbox = () => {
   const categories = [
-    { title: "Primary", icon: <BsInboxFill /> },
+    {
+      title: "Primary",
+      icon: <BsInboxFill className="hover:text-yellow-500" />,
+    },
     { title: "Social", icon: <BsInboxFill /> },
     { title: "Promotions", icon: <BsInboxFill /> },
     { title: "Updates", icon: <BsInboxFill /> },
